@@ -1,5 +1,7 @@
 # Giallo Music
 A series of Csound pieces composed according to values extracted from 3 Giallo Films.
+
+
 BA(Hons) Thesis project
 
 ![Header Image](/Image.jpg)
