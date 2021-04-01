@@ -1,0 +1,92 @@
+
+		1   2  3  4   5   6  7  8
+D Octotonic:	D, Eb, F, F#, Ab, A, B, C
+	Maj:	D, E, F#, G,  A,  B, C#
+
+MOTHER SUSPIRIORUM
+	SEVEN NOTE
+
+m	o	t	h	e	r	s	u	s	p	i	r	i	o	r	u	m
+6	1	6	1	5	4	5	7	5	2	2	4	2	1	4	7	6
+A	D	A	D	Ab	F#	Ab	B	Ab	Eb	Eb	F#	Eb	D	F#	B	A
+	OCTOTONIC
+
+m	o	t	h	e	r	s	u	s	p	i	r	i	o	r	u	m
+5	7	4	8	5	2	3	5	3	8	1	2	1	7	2	5	5
+Ab	B	F#	C	Ab	Eb	F	Ab	F	C	D	Eb	D	B	Eb	Ab	Ab
+
+
+
+
+MOTHER LACHRYMARUM
+	SEVEN NOTE
+
+m	o	t	h	e	r	l	a	c	h	r	y	m	a	r	u	m
+6	1	6	1	5	4	5	1	3	1	4	4	6	1	4	7	6
+
+	OCTOTONIC
+
+m	o	t	h	e	r	l	a	c	h	r	y	m	a	r	u	m
+5	7	4	8	5	2	4	1	3	8	2	1	5	1	2	5	5
+Ab	B	F#	C	Ab	Eb	F#	D	F	C	Eb	D	Ab	D	Eb	Ab	Ab
+
+
+SUZY
+
+s	u	z	y
+
+	SEVEN NOTE
+5	7	5	4
+A	C#	A	G
+
+	OCTOTONIC
+3	5	2	1
+F	Ab	Eb	D
+
+
+		1   2  3  4   5   6  7  8
+D Octotonic:	D, Eb, F, F#, Ab, A, B, C
+	Maj:	D, E, F#, G,  A,  B, C#
+
+
+
+BANNION
+
+b	a	n	n	i	o	n
+
+	SEVEN NOTE
+2	1	7	7	2	1	7
+E	D	C#	C#	E	D	B
+
+	OCTOTONIC
+2	1	6	6	1	7	6
+Eb	D	A	A	D	B	A
+
+
+t	a	n	z	a	k	a	d	a	m	i	e
+4	1	6	2	1	3	1	4	1	5	1	5
+F#	D	A	Eb	D	F	D	F#	D	Ab	D	Ab
+
+
+TANNER
+
+	OCTOTONIC
+t	a	n	n	e	r
+4	1	6	6	5	2
+F#	D	A	A	Ab	Eb
+
+
+MISS
+
+	SEPTATONIC
+m	i	s	s
+6	2	5	5
+B	E	A	A
+
+
+PAT HINGLE
+	
+	SEPTATONIC
+p	a	t	h	i	n	g	l	e
+2	1	6	1	2	7	7	5	5
+E	D	B	D	E	C#	C#	A	A
