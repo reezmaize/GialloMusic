@@ -11,7 +11,7 @@ inote	notnum
 	asig	=	asig1 + asig2
 	
 
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.5, 0 ;spatialising with vbap	(always centre panned)
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.75, 0 ;spatialising with vbap	(always centre panned)
 
 	
 	ga1 = ga1 + a1		;outputting vbap signal to global vbap

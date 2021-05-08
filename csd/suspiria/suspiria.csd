@@ -32,22 +32,32 @@ ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, gasig, averb init 0
 
 alwayson	"vbap"
 ;alwayson	"read"
-;alwayson	"reverb"
+alwayson	"reverb"
 ;alwayson	"drone"
 
-instr reverb
+/*instr oldverb
 
 	aL, aR	reverbsc	gasigL,	gasigR,	0.8,	1000
 		outs	aL*1.7,	aR*1.7
 	gasigL	=	0
 	gasigR	=	0
 
+endin*/
+
+instr reverb
+
+	arevl, arevr, idel hrtfreverb gaverb, 10, 8, "Ears/hrtf-44100-left.dat", "Ears/hrtf-44100-right.dat"
+
+	outs arevl*0.25, arevr*0.25
+	clear gaverb
+
 endin
+
 
 </CsInstruments>
 ; ==============================================
 <CsScore>
-f 0 200
+f 0 500
 f 1 0 32768 10 1
 
 ;i1 0 5 440 0.5

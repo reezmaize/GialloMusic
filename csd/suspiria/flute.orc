@@ -10,7 +10,7 @@ instr flute
 	
 	asig	wgflute	kamp*iamp,	ifreq*0.5,	0.3,	0.1,	0.1,	0,	1.6,	0.1
 
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.5, ipan 
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.25, ipan 
 
 	
 	ga1 = ga1 + a1
