@@ -2,6 +2,7 @@
 instr celeste
 
 	idel	random, 0, 0.03
+	kdepth	=	gkmagic
 
 	inote	notnum
 	iamp	veloc	0, 0.8
@@ -11,11 +12,13 @@ instr celeste
 	kamp	madsr	0.01,	0.6,	0.1,	6
 	kfreq	=	cpsmidinn(inote)
 
-	asig	fmbell	kamp*iamp,	kfreq,	5,	16,	0.005,	6, 1,1,1,1,1,6
+	asig1	fmbell	kamp*iamp,	kfreq,	40*kdepth,	100,	kdepth,	6, 1,1,1,1,1,6
+	asig2	fmmetal	kamp*iamp,	kfreq*1.1, 4,	80,	kdepth,	6, 1,1,1,1,1
+	asig 	=	asig1 + (asig2*2)
 
 	asig	delay	asig, idel
 	
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.02, ipan ;spatialising with vbap
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.005, ipan ;spatialising with vbap
 
 	
 	ga1 = ga1 + a1		;outputting vbap signal to global vbap

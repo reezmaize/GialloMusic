@@ -9,7 +9,7 @@ instr flute
 
 	kpw	=	gkred			;Assigning red value to pulse width
 
-	kamp	madsr	0.5,	idur*0.5,	0.3,	3
+	kamp	madsr	0.35,	idur*0.5,	0.3,	3
 	
 	asig1	vco2	iamp,	ifreq*2, 4, kpw
 	asig2	vco2	iamp,	ifreq*1.25,	2, kpw

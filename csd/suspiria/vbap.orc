@@ -3,8 +3,8 @@ vbaplsinit 2, 8, 0, 45, 90, 135, 180, 225, 270, 315    ;initialise vbap setup
 
 instr vbap
 
-	Sl = "Ears/hrtf-44100-left.dat"  	;Selecting Ears
-	Sr = "Ears/hrtf-44100-right.dat"     
+	Sl = "Ears/CIPIC060l44100.dat"  	;Selecting Ears
+	Sr = "Ears/CIPIC060r44100.dat"     
 
 	al1, ar1 hrtfstat ga1, 0, 0, Sl, Sr	;Performing Spatialisation of virtual loudspeakers
 	al2, ar2 hrtfstat ga2, 45, 0, Sl, Sr
