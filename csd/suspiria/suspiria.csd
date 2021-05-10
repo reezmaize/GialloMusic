@@ -26,12 +26,12 @@ ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, gasig, averb init 0
 #include	"flute.orc"
 #include	"cello.orc"
 ;#include	"drone.orc"
-;#include	"readk.orc"
+#include	"readk.orc"
 #include	"oboe.orc"
 #include	"contrabass.orc"
 
 alwayson	"vbap"
-;alwayson	"read"
+alwayson	"read"
 alwayson	"reverb"
 ;alwayson	"drone"
 

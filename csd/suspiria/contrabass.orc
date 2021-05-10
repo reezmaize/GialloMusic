@@ -6,9 +6,10 @@ inote	notnum
 	
 	kamp	madsr	0.2,	0.6,	0.5,	0.5
 
-	asig1	oscil	kamp*iamp,	ifreq
+	asig1	vco2	kamp*iamp,	ifreq, 12
 	asig2	oscil	kamp*iamp*0.75, ifreq*0.5
 	asig	=	asig1 + asig2
+	asig	lpf18	asig,	ifreq*kamp,	0.35, 0.1
 	
 
 	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.75, 0 ;spatialising with vbap	(always centre panned)
