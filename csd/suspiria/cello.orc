@@ -2,6 +2,8 @@
 
 instr cello
 
+	idel	random	0, 0.05			;Time for delayed signal
+
 	inote	notnum
 	iamp	veloc	0, 0.8
 	ifreq	=	cpsmidinn(inote)
@@ -15,6 +17,8 @@ instr cello
 	asig	=	asig + asig2
 
 	asig	lpf18	asig, 3000*kamp, 0.2,	0.3
+
+	asig	delay	asig, idel		;Delaying output to create human error
 
 	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.75, ipan ;spatialising with vbap
 

@@ -2,18 +2,25 @@
 
 instr read
 
-	kmagic, kviolence, kwitches, kred readk4 "../../Data\ Collection/Suspiria/pausefiles/1/suspiria.vals", 7, 0.01
+	iport init 1	;Initialising portamento time
+
+	;Reading values from suspiria.vals
+
+	kmagic, kviolence, kwitches, kred readk4 "../../Data\ Collection/Suspiria/pausefiles/1/suspiria.vals", 7, 0.1
 	
-	/*gkmagic		=	kmagic
-	gkviolence	=	kviolence
-	gkwitches	=	kwitches
-	gkred		=	kred*/
+
+	;Adding portamento to read values
+
+	kmagic 		port	kmagic, iport
+	kviolence	port	kviolence, iport
+	kwitches	port	kwitches, iport
+	kred		port	kred, iport
 
 	;Scaling values between 0 and 1 for use with most opcodes
 
-	gkmagic		scale	kmagic, 0, 1, 0, 127
-	gkviolence	scale	kviolence, 0, 1, 0, 127
-	gkwitches	scale	kwitches, 0, 1, 0, 127
-	gkred		scale	kred, 0, 1, 0, 127
+	gkmagic		scale	kmagic, 0.99, 0.11,127, 0
+	gkviolence	scale	kviolence, 0.99, 0.11,127, 0
+	gkwitches	scale	kwitches, 0.99, 0.11,127, 0
+	gkred		scale	kred, 0.99, 0.11,127, 0
 
 endin

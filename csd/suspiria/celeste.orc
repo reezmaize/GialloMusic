@@ -1,6 +1,8 @@
 
 instr celeste
 
+	idel	random, 0, 0.03
+
 	inote	notnum
 	iamp	veloc	0, 0.8
 	ipan	random	25,	75	;Panning for vbap (range is 0-360)
@@ -11,6 +13,7 @@ instr celeste
 
 	asig	fmbell	kamp*iamp,	kfreq,	5,	16,	0.005,	6, 1,1,1,1,1,6
 
+	asig	delay	asig, idel
 	
 	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.02, ipan ;spatialising with vbap
 

@@ -5,13 +5,19 @@ instr flute
 	iamp	veloc	0, 0.8
 	ifreq	=	cpsmidinn(inote)
 	ipan	random	260,	350
+	idur = p3
+
 	kpw	=	gkred			;Assigning red value to pulse width
 
-	kamp	madsr	0.075,	0.5,	0.5,	0.6
+	kamp	madsr	0.5,	idur*0.5,	0.3,	3
 	
-	asig	vco2	iamp*kamp,	ifreq, 4, kpw
+	asig1	vco2	iamp,	ifreq*2, 4, kpw
+	asig2	vco2	iamp,	ifreq*1.25,	2, kpw
 
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.25, ipan 
+	asig	=	(asig1 * asig2) * kamp
+	asig 	butbp	asig,	ifreq*2, 500
+
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig, ipan 
 
 	
 	ga1 = ga1 + a1
