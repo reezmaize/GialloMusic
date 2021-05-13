@@ -1,5 +1,5 @@
 # Giallo Music
-<div style="text-align: justify"> your-text-here 
+<div style="text-align: justify">  
 A conceptual csound piece, composed according to values extracted from Giallo Films. BA(Hons) Thesis project
 
 ![Header Image](/Image.jpg)
