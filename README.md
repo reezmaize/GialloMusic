@@ -1,5 +1,5 @@
 # Giallo Music
-
+<div style="text-align: justify"> your-text-here 
 A conceptual csound piece, composed according to values extracted from Giallo Films. BA(Hons) Thesis project
 
 ![Header Image](/Image.jpg)
@@ -13,4 +13,4 @@ The film selected is [Suspiria (1977)](https://letterboxd.com/film/suspiria/ "Su
 
 Suspiria follows the story of Suzy Bannion, an American dance student, who begins attending the Tanz Dance Akademie; a German Dance school run by a coven of Witches.
 
-
+</div>
