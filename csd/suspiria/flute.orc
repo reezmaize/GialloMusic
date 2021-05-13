@@ -15,9 +15,9 @@ instr flute
 	asig2	vco2	iamp,	ifreq*1.25,	2, kpw
 
 	asig	=	(asig1 * asig2) * kamp
-	asig 	butbp	asig,	ifreq*2, 500
+	asig 	butbp	asig,	(ifreq*2)*gkviolence, 500
 
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig, ipan 
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig, ipan*gkintensity 
 
 	
 	ga1 = ga1 + a1

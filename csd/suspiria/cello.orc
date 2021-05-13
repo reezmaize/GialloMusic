@@ -20,7 +20,7 @@ instr cello
 
 	asig	delay	asig, idel		;Delaying output to create human error
 
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.75, ipan ;spatialising with vbap
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*0.75, ipan*gkintensity ;spatialising with vbap
 
 	
 	ga1 = ga1 + a1		;outputting vbap signal to global vbap

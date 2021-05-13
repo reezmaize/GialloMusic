@@ -16,7 +16,7 @@ instr oboe
 	asig	butbp	asig,	(ifreq*2)*kamp, 150
 
 	
-	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*2, ipan ;spatialising with vbap
+	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig*2, ipan*gkintensity ;spatialising with vbap
 
 	
 	ga1 = ga1 + a1		;outputting vbap signal to global vbap

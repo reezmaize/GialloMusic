@@ -1,6 +1,6 @@
 <CsoundSynthesizer>
 <CsOptions>
--odac -F "../../Scores/suspiria.mid"
+-odac -F "../../Scores/suspiria.mid" -T
 </CsOptions>
 ; ==============================================
 <CsInstruments>
@@ -15,7 +15,7 @@ seed 0
 gasigL	init	0
 gasigR	init	0
 
-gkmagic, gkviolence, gkwitches, gkred init 0, 0, 0, 0
+gkintensity, gkmagic, gkviolence, gkwitches, gkred init 0, 0, 0, 0, 0
 ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, gasig, averb init 0
 
 
