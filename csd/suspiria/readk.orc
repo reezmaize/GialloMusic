@@ -4,10 +4,14 @@ instr read
 
 	iport init 1	;Initialising portamento time
 
-	;Reading values from suspiria.vals
+/*	Reading values from suspiria.vals
 
-	kmagic, kviolence, kwitches, kred readk4 "../../Data\ Collection/Suspiria/pausefiles/1/suspiria.vals", 7, 0.082
-	kintensity	readk	"../../Data\ Collection/Suspiria/pausefiles/1/intensity.val"
+	Reading interval is determined by dividing the total length of the piece in seconds by the number of lines in each file
+			eg: 8:00 in seconds = 480
+				478 / 2602 = 0.18370....
+*/
+	kmagic, kviolence, kwitches, kred readk4 "../../Data\ Collection/Suspiria/suspiria.vals", 7, 0.183
+	kintensity	readk	"../../Data\ Collection/Suspiria/susintensity.val", 7, 0.136
 	
 	printk2	kred, 10
 
