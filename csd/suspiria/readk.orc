@@ -6,8 +6,10 @@ instr read
 
 	;Reading values from suspiria.vals
 
-	kmagic, kviolence, kwitches, kred readk4 "../../Data\ Collection/Suspiria/pausefiles/1/suspiria.vals", 7, 0.1
+	kmagic, kviolence, kwitches, kred readk4 "../../Data\ Collection/Suspiria/pausefiles/1/suspiria.vals", 7, 0.082
+	kintensity	readk	"../../Data\ Collection/Suspiria/pausefiles/1/intensity.val"
 	
+	printk2	kred, 10
 
 	;Adding portamento to read values
 
@@ -22,5 +24,6 @@ instr read
 	gkviolence	scale	kviolence, 0.99, 0.11,127, 0
 	gkwitches	scale	kwitches, 0.99, 0.11,127, 0
 	gkred		scale	kred, 0.99, 0.11,127, 0
+
 
 endin

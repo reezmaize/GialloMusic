@@ -46,7 +46,7 @@ endin*/
 
 instr reverb
 
-	arevl, arevr, idel hrtfreverb gaverb, 10, 8, "Ears/hrtf-44100-left.dat", "Ears/hrtf-44100-right.dat"
+	arevl, arevr, idel hrtfreverb gaverb, 10, 8, "Ears/CIPIC060l44100.dat", "Ears/CIPIC060r44100.dat"
 
 	outs arevl*0.25, arevr*0.25
 	clear gaverb
