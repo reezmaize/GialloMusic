@@ -25,7 +25,6 @@ ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, gasig, averb init 0
 #include	"celeste.orc"
 #include	"flute.orc"
 #include	"cello.orc"
-;#include	"drone.orc"
 #include	"readk.orc"
 #include	"oboe.orc"
 #include	"contrabass.orc"
@@ -33,16 +32,6 @@ ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, gasig, averb init 0
 alwayson	"vbap"
 alwayson	"read"
 alwayson	"reverb"
-;alwayson	"drone"
-
-/*instr oldverb
-
-	aL, aR	reverbsc	gasigL,	gasigR,	0.8,	1000
-		outs	aL*1.7,	aR*1.7
-	gasigL	=	0
-	gasigR	=	0
-
-endin*/
 
 instr reverb
 
@@ -59,11 +48,6 @@ endin
 <CsScore>
 f 0 500
 f 1 0 32768 10 1
-
-;i1 0 5 440 0.5
-
-;i "read" 97.835 100
-;i "drone" 97.835 100
 </CsScore>
 </CsoundSynthesizer>
 
