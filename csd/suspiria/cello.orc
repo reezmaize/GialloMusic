@@ -1,5 +1,3 @@
-
-
 instr cello
 
 	idel	random	0, 0.05			;Time for delayed signal

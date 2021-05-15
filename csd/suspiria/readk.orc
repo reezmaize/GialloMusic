@@ -1,5 +1,3 @@
-
-
 instr read
 
 	iport init 1	;Initialising portamento time

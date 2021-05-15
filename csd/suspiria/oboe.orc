@@ -1,5 +1,3 @@
-
-
 instr oboe
 
 	inote	notnum

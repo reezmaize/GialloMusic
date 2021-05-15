@@ -1,4 +1,3 @@
-
 vbaplsinit 2, 8, 0, 45, 90, 135, 180, 225, 270, 315    ;initialise vbap setup
 
 instr vbap

@@ -1,4 +1,3 @@
-
 instr celeste
 
 	idel	random, 0, 0.03

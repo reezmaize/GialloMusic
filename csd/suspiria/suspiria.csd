@@ -1,6 +1,6 @@
 <CsoundSynthesizer>
 <CsOptions>
--odac -F "../../Scores/suspiria.mid" -T
+-odac -F "../../Scores/suspiria.mid"
 </CsOptions>
 ; ==============================================
 <CsInstruments>
