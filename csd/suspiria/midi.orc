@@ -1,4 +1,4 @@
-;Assigns MIDI messages to certian instruments depending on the MIDI channel
+;Assigns MIDI messages to certain instruments depending on the MIDI channel
 
 massign 1, "flute"
 massign	2, "celeste"
