@@ -1,4 +1,4 @@
-vbaplsinit 2, 8, 0, 45, 90, 135, 180, 225, 270, 315    ;initialise vbap setup
+vbaplsinit 2, 8, 0, 45, 90, 135, 180, 225, 270, 315    ;initialise vbap setup & virtual loudspeaker angles
 
 instr vbap
 
@@ -14,10 +14,10 @@ instr vbap
 	al7, ar7 hrtfstat ga7, 270, 0, Sl, Sr
 	al8, ar8 hrtfstat ga8, 315, 0, Sl, Sr
 
-		outs (al1+al2+al3+al4+al5+al6+al7+al8) * .5, (ar1+ar2+ar3+ar4+ar5+ar6+ar7+ar8) * .5
+		outs (al1+al2+al3+al4+al5+al6+al7+al8) * .5, (ar1+ar2+ar3+ar4+ar5+ar6+ar7+ar8) * .5	;Outputting to the DAC
 
-	gaverb = ((al1+al2+al3+al4+al5+al6+al7+al8)+(ar1+ar2+ar3+ar4+ar5+ar6+ar7+ar8))*.5
+	gaverb = ((al1+al2+al3+al4+al5+al6+al7+al8)+(ar1+ar2+ar3+ar4+ar5+ar6+ar7+ar8))*.5		;Sending output to reverb
 
-	clear ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8
+	clear ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8	;Clearing global variables for next use
  
 endin

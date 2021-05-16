@@ -26,11 +26,4 @@ instr oboe
 	ga7 = ga7 + a7
 	ga8 = ga8 + a8
 
-
-
-
-	gasigL	=	asig
-	gasigR	=	asig
-
-
 endin

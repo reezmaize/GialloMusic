@@ -1,3 +1,5 @@
+;Assigns MIDI messages to certian instruments depending on the MIDI channel
+
 massign 1, "flute"
 massign	2, "celeste"
 massign 3, "cello"

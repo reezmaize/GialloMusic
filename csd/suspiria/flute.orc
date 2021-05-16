@@ -14,7 +14,7 @@ instr flute
 	asig2	vco2	iamp,	ifreq*1.25,	2, kpw
 
 	asig	=	(asig1 * asig2) * kamp
-	asig 	butbp	asig,	(ifreq*2)*gkviolence, 500
+	asig 	butbp	asig,	(ifreq*2)*gkviolence, 500	;Bandpass Filter
 
 	a1, a2, a3, a4, a5, a6, a7, a8 vbap asig, ipan*gkintensity 
 
@@ -27,9 +27,5 @@ instr flute
 	ga6 = ga6 + a6
 	ga7 = ga7 + a7
 	ga8 = ga8 + a8
-
-
-	gasigL	=	asig
-	gasigR	=	asig
 
 endin

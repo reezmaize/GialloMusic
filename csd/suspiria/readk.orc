@@ -27,7 +27,4 @@ instr read
 	gkwitches	scale	kwitches, 1.5, 0.5,127, 0
 	gkred		scale	kred, 0.99, 0.11,127, 0
 
-	printk2	gkviolence, 20
-
-
 endin

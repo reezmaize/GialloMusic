@@ -14,7 +14,7 @@ instr cello
 	
 	asig	=	asig + asig2
 
-	asig	lpf18	asig, 3000*kamp, 0.2,	0.3
+	asig	lpf18	asig, 3000*kamp, 0.2,	0.3	;Lowpass filter
 
 	asig	delay	asig, idel		;Delaying output to create human error
 
@@ -29,11 +29,6 @@ instr cello
 	ga6 = ga6 + a6
 	ga7 = ga7 + a7
 	ga8 = ga8 + a8
-
-
-
-	gasigL	=	asig*0.75
-	gasigR	=	asig*0.75
 
 
 endin
