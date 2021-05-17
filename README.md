@@ -1,8 +1,14 @@
 # Giallo Music  
 
+<div align="right">
+  
 [Click here to download the latest bounce of the piece.](https://github.com/reezmaize/GialloMusic/blob/main/csd/suspiria/suspiria.wav?raw=true "suspiria.wav")
 
 [Click here to view the score.](Scores/Suspiria.pdf "Suspiria.pdf")
+
+[Click here to view the thesis associated with this project.](https://github.com/reezmaize/GialloMusic/blob/aa3aec2f49968330596e113a9e8842ca8e28fcf1/Thesis%20-%20Interpreting%20Gialli%20as%20Music.pdf "Thesis")
+</div>
+
 
 ![Header Image](/Image.jpg)
 
@@ -17,6 +23,8 @@ The film selected is [Suspiria (1977)](https://letterboxd.com/film/suspiria/ "Su
 
 
 Suspiria follows the story of Suzy Bannion, an American dance student, who begins attending the Tanz Dance Akademie; a German Dance school run by a coven of Witches.
+
+*Artwork by Faith Nico (@cess.pit on Instagram).*
 
 
 
