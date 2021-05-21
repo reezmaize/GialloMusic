@@ -26,7 +26,7 @@ The film selected is [Suspiria (1977)](https://letterboxd.com/film/suspiria/ "Su
 
 Suspiria follows the story of Suzy Bannion, an American dance student, who begins attending the Tanz Dance Akademie; a German Dance school run by a coven of Witches.
 
-*Artwork by Faith Nico (@cess.pit on Instagram).*
+*Artwork by Faith Nico ([@cess.pit](https://www.instagram.com/cess.pit/) on Instagram).*
 
 
 
